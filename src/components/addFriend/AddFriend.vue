@@ -11,8 +11,7 @@ export default {
   },
   methods: {
     submitData() {
-      this.emit('add-contact', this.name, this.phone, this.email)
-      alert('ttrrrg')
+      this.$emit('add-contact', this.name, this.phone, this.email)
     },
   },
 }
